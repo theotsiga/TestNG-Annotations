@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[exe started]]>
+    </line>
+    <line>
+      <![CDATA[login is executing]]>
+    </line>
+    <line>
+      <![CDATA[reports printing]]>
+    </line>
+    <line>
+      <![CDATA[exe competed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51622" started-at="2020-09-24T18:39:29Z" finished-at="2020-09-24T18:40:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51622" started-at="2020-09-24T18:39:29Z" finished-at="2020-09-24T18:40:21Z">
+      <class name="test.TestActitimeLogInAnnotation">
+        <test-method status="PASS" signature="startExecution()[pri:0, instance:test.TestActitimeLogInAnnotation@4493d195]" name="startExecution" is-config="true" duration-ms="30" started-at="2020-09-24T18:39:29Z" finished-at="2020-09-24T18:39:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[exe started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startExecution -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.TestActitimeLogInAnnotation@4493d195]" name="openBrowser" is-config="true" duration-ms="29245" started-at="2020-09-24T18:39:30Z" finished-at="2020-09-24T18:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:test.TestActitimeLogInAnnotation@4493d195]" name="logintoApp" is-config="true" duration-ms="21261" started-at="2020-09-24T18:39:59Z" finished-at="2020-09-24T18:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:test.TestActitimeLogInAnnotation@4493d195]" name="login" duration-ms="21" started-at="2020-09-24T18:40:20Z" finished-at="2020-09-24T18:40:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login is executing]]>
+            </line>
+            <line>
+              <![CDATA[reports printing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestActitimeLogInAnnotation@4493d195]" name="closeBrowser" is-config="true" duration-ms="1008" started-at="2020-09-24T18:40:20Z" finished-at="2020-09-24T18:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="stopExecution()[pri:0, instance:test.TestActitimeLogInAnnotation@4493d195]" name="stopExecution" is-config="true" duration-ms="1" started-at="2020-09-24T18:40:21Z" finished-at="2020-09-24T18:40:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[exe competed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- stopExecution -->
+      </class> <!-- test.TestActitimeLogInAnnotation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
